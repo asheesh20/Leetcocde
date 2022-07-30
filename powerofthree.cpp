@@ -1,3 +1,5 @@
+1st Approach :
+
 class Solution {
 public:
     bool isPowerOfThree(int n) {
@@ -8,5 +10,17 @@ public:
             else return false;
         }
         return true;
+    }
+};
+
+2nd Approach :
+
+class Solution {
+public:
+    bool isPowerOfThree(int n) {
+        for(int i=0;i<sqrt(n);i++){
+            if(pow(3,i)==n) return true;
+        }
+        return false;
     }
 };
