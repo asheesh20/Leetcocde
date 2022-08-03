@@ -19,7 +19,7 @@ public:
     }
 };
 
-2nd Approach :
+2nd Approach (Easy) :
 
 class Solution {
 public:
